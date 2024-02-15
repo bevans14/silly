@@ -1,0 +1,48 @@
+body {
+    background-image: url("https://www.bhmpics.com/downloads/pixel-cat-Wallpapers/10.tumblr_ov39iljdt31wvcbfqo2_1280.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+.box {
+    background-color: #ffccff; /* Light pink */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    width: 80%;
+    height: 500px;
+    margin-top: 50%;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #button {
+    padding: 20px 40px;
+    background-color: #ff99cc; /* Dark pink */
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  #button:hover {
+    background-color: #ff66a3; /* Hover color */
+  }
+  
+  #picture {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+    z-index: 9999;
+  }
+
